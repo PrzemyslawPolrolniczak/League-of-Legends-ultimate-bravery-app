@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="roll.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira:400,700" rel="stylesheet">
+  </head>
+  <body>
+       <h1>WYLOSOWAŁEŚ<span id="exit" onclick="finish()">X</span></h1>
+    <div>
+        <p>Champion : </p><script>document.write('<h2>' + champion + '</h2>');</script>
+        <p>Role : </p><script>document.write('<h2>' + role() + '</h2>');</script>
+        <p>Build : </p><script>document.write('<h2>' + build + '</h2>');</script>
+        <p>Summoners : </p><script>document.write('<h2>' + summoners() + '</h2>');</script>
+    </div>
+  </body>
+</html>

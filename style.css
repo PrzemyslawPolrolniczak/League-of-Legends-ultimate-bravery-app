@@ -1,0 +1,50 @@
+body {
+    font-family: 'Saira', sans-serif;
+    background-image: url(defeat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -ms-overflow-style: scrollbar;
+    -webkit-app-region:drag;
+}
+
+div {
+    padding-top: 300px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: firebrick;
+    background-color: black;
+    font-weight: 700;
+}
+
+span {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    background-color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    color: white;
+    opacity: 0.5;
+    width: 30px;
+    cursor: pointer;
+}
+
+h2 {
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
+
+p {
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
